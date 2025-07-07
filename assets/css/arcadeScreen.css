@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Press+Start+2P&display=swap');
+
+/*FONTS */
+@font-face {
+  font-family: "Press Start 2P";
+  src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: "Play";
+    src: url('../fonts/Play-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+  font-family: "Play";
+  src: url('../fonts/Play-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .play-regular {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+
+@keyframes blink {
+    0%, 100% { background-color: white; }
+    50% { background-color: #facc15; }
+  }
+  
+  .blink {
+    animation: blink 0.5s infinite;
+  }
+
+#PAG1{
+    background-image: url('../images/arcadeGIF.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+#PAG2{
+    background-image: url('../images/arcadeGIF.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+}
+
+#PAG3{
+  background-image: url('../images/arcadeGIF.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: none;
+}
+
+#PAG4{
+  background-color: transparent;
+  display: none;
+}
+
+#persiana{
+  transform: translateY(-100%); /* La persiana estara arriba del todo y con js hacemos la transición */
+  display: flex;
+  overflow: hidden;
+}
+
+.container4{
+  opacity: 0;
+}
