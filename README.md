@@ -81,11 +81,17 @@ The game supports multiple control methods:
 
 ### Game Screenshots
 
-![Game Interface](image1)
-*Main arcade interface showing the game in action*
+<p align="center">
+  <img src="https://github.com/Big-Lolo/Ark4de-I0/blob/main/assets/images/robot1.jpg" alt="Game Interface" width="200"/>
+  <br>
+  <em>Main arcade interface showing the game in action</em>
+</p>
 
-![Robot Control System](image2)
-*Cartesian spider robot in operation during gameplay*
+<p align="center">
+  <img src="https://github.com/Big-Lolo/Ark4de-I0/blob/main/assets/images/robot2.jpg" alt="Robot Control System" width="200"/>
+  <br>
+  <em>Cartesian spider robot in operation during gameplay</em>
+</p>
 
 ## License
 
